@@ -1,2 +1,3 @@
-# samples
-Odoo Mobile Samples demo
+# Odoo Mobile Samples
+
+Odoo Mobile Sample projects for demonstration of features

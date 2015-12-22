@@ -1,0 +1,135 @@
+TASK com.odoo.v10 id=392
+  ACTIVITY com.odoo.v10/com.odoo.OdooActivity 6cfee4e pid=9914
+    Local FragmentActivity f7618b4 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    Active Fragments in 474cadc:
+      #0: Customers{db197e5 #0 id=0x7f0f0149 com.odoo.addons.customers.Customers}
+        mFragmentId=#7f0f0149 mContainerId=#7f0f0149 mTag=com.odoo.addons.customers.Customers
+        mState=2 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{474cadc in HostCallbacks{103a2ba}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@103a2ba
+        mArguments=Bundle[{extra_key_type=Customer}]
+        mSavedViewState={2131689594=android.view.AbsSavedState$1@ffd256b, 2131689595=android.view.AbsSavedState$1@ffd256b, 2131689724=android.view.AbsSavedState$1@ffd256b, 2131689725=android.view.AbsSavedState$1@ffd256b, 2131689733=android.view.AbsSavedState$1@ffd256b, 2131689734=android.view.AbsSavedState$1@ffd256b, 2131689735=android.view.AbsSavedState$1@ffd256b, 2131689736=AbsListView.SavedState{bf1b8c8 selectedId=-9223372036854775808 firstId=-1 viewTop=0 position=0 height=0 filter=null checkState=null}, 2131689737=android.view.AbsSavedState$1@ffd256b, 2131689738=android.view.AbsSavedState$1@ffd256b, 2131689769=android.widget.ProgressBar$SavedState@ee8cd61}
+        mContainer=android.widget.FrameLayout{1b93086 V.E...... .......D 0,240-1080,1776 #7f0f0149 app:id/fragment_container}
+        mView=android.widget.RelativeLayout{646ad47 V.E...... .......D 0,0-1080,1536}
+        mInnerView=android.widget.RelativeLayout{646ad47 V.E...... .......D 0,0-1080,1536}
+        Loader Manager:
+          Active Loaders:
+            #0: LoaderInfo{cd9974 #0 : CursorLoader{3de9d}}
+              mId=0 mArgs=null
+              mCallbacks=Customers{db197e5 #0 id=0x7f0f0149 com.odoo.addons.customers.Customers}
+              mLoader=CursorLoader{3de9d id=0}
+                mId=0 mListener=null
+                mUri=content://com.odoo.v10.core.provider.content.sync.res_partner/res.partner?key_model=res.partner&key_username=admin%5Bodoo_master%5D
+                mProjection=null
+                mSelection=customer = ?
+                mSelectionArgs=[true]
+                mSortOrder=name
+                mCursor=android.content.ContentResolver$CursorWrapperInner@9e7cf12
+                mContentChanged=false
+              mHaveData=true  mDeliveredData=true
+              mData=android.content.ContentResolver$CursorWrapperInner@9e7cf12
+              mStarted=false mReportNextStart=false mDestroyed=false
+              mRetaining=false mRetainingStarted=false mListenerRegistered=false
+        Child FragmentManager{2b6d6e3 in Customers{db197e5}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@103a2ba
+            mContainer=android.support.v4.app.Fragment$1@3e4d8e0
+            mParent=Customers{db197e5 #0 id=0x7f0f0149 com.odoo.addons.customers.Customers}
+            mCurState=2 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: Customers{db197e5 #0 id=0x7f0f0149 com.odoo.addons.customers.Customers}
+    Fragments Created Menus:
+      #0: Customers{db197e5 #0 id=0x7f0f0149 com.odoo.addons.customers.Customers}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@103a2ba
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@103a2ba
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{fc4c799 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{4efca5e V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{c75fe3f G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{56ea30c V.E..... ... 0,0-1080,1776}
+            android.support.v7.widget.FitWindowsLinearLayout{d114455 V.E..... ... 0,0-1080,1776 #7f0f008d app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{1ea2e6a G.E..... ... 0,0-0,0 #7f0f008e app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{ad63f5b V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{fe8e3f8 VFE..... F.. 0,0-1080,1776 #7f0f0147 app:id/drawer_layout}
+                  android.widget.LinearLayout{56ed0d1 V.E..... ... 0,0-1080,1776}
+                    android.support.design.widget.AppBarLayout{674c736 V.E..... ... 0,0-1080,240 #7f0f0148 app:id/appbar_layout}
+                      android.support.v7.widget.Toolbar{e2f7637 V.E..... ... 0,0-1080,240 #7f0f00a2 app:id/toolbar}
+                        android.support.v7.widget.AppCompatSpinner{5c447a4 G.ED..C. ... 0,0-0,0 #7f0f00ba app:id/spinner_nav}
+                        android.widget.TextView{f3ea90d V.ED.... ... 216,115-508,196}
+                        android.widget.ImageButton{23e20c2 VFED..C. ... 0,72-168,240}
+                        android.support.v7.widget.ActionMenuView{a7b3ed3 V.E..... ... 912,72-1056,240}
+                          android.support.v7.view.menu.ActionMenuItemView{dd03a10 VFED..CL ... 0,12-144,156 #7f0f0158 app:id/menu_partner_search}
+                    android.widget.FrameLayout{1b93086 V.E..... ... 0,240-1080,1776 #7f0f0149 app:id/fragment_container}
+                      android.widget.RelativeLayout{646ad47 V.E..... ... 0,0-1080,1536}
+                        android.widget.LinearLayout{bb9c909 V.E..... ... 0,0-1080,1536 #7f0f0105 app:id/data_list_container}
+                          android.support.v4.widget.SwipeRefreshLayout{f51870e V.ED.... ... 0,0-1080,1536 #7f0f0106 app:id/customer_no_items}
+                            android.widget.ScrollView{fb0f52f VFED.V.. ... 0,0-1080,1536}
+                              android.widget.LinearLayout{a66e73c V.E..... ... 0,0-1080,1536 #7f0f00fc app:id/dashboard_no_item_view}
+                                android.support.v7.widget.AppCompatImageView{cacecc5 V.ED.... ... 420,575-660,815 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{b23061a V.ED.... ... 228,815-851,903 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{be1b54b V.ED.... ... 540,903-540,960 #7f0f00fd app:id/subTitle}
+                            android.support.v4.widget.CircleImageView{7593b28 G.ED.... ... 480,-120-600,0}
+                          android.support.v4.widget.SwipeRefreshLayout{9f49041 G.ED.... ... 0,0-0,0 #7f0f0107 app:id/swipe_container}
+                            android.widget.ListView{45b69e6 V.ED.VC. ... 0,0-0,0 #7f0f0108 app:id/listview}
+                            android.support.v4.widget.CircleImageView{3145b27 V.ED.... ... 0,192-0,192}
+                          android.widget.LinearLayout{a9ae1d4 G.E..... ... 0,0-1080,1536 #7f0f0109 app:id/loadingProgress}
+                            android.widget.ProgressBar{2b8ef7d V.ED.... ... 468,696-612,840 #7f0f0129 app:id/progressBar1}
+                        android.support.design.widget.FloatingActionButton{9643e72 VFED..C. ... 864,1320-1032,1488 #7f0f010a app:id/fabButton}
+                  android.widget.LinearLayout{8e182c3 I.E..... ... -840,0-0,1776}
+                    android.widget.LinearLayout{3ae4740 V.E..... ... 0,0-840,1776 #7f0f00c3 app:id/navDrawer}
+                      android.widget.ScrollView{66a0679 VFED.V.. ... 0,0-840,1776}
+                        android.widget.LinearLayout{3b3cfbe V.E..... ... 0,0-840,1515}
+                          android.widget.FrameLayout{7cf881f V.E...C. ... 0,0-840,576 #7f0f00c4 app:id/drawerAccountView}
+                            android.support.v7.widget.AppCompatImageView{5d0976c V.ED.... ... 0,0-840,576}
+                            android.widget.LinearLayout{17b9135 V.E..... ... 48,72-840,576}
+                              odoo.controls.BezelImageView{bd929ca V.ED.... ... 0,48-240,288 #7f0f00af app:id/profile_image}
+                              android.widget.LinearLayout{26e873b V.E..... ... 0,312-744,480}
+                                android.support.v7.widget.AppCompatTextView{8e5be58 V.ED.... ... 0,0-744,65 #7f0f00c5 app:id/profile_name_text}
+                                android.widget.LinearLayout{9e10bb1 V.E..... ... 0,65-744,144}
+                                  android.support.v7.widget.AppCompatTextView{2481896 V.ED.... ... 0,6-648,63 #7f0f00c6 app:id/profile_url_text}
+                                  android.support.v7.widget.AppCompatImageView{a345c17 V.ED.... ... 648,0-744,79 #7f0f00c7 app:id/expand_account_box_indicator}
+                          android.widget.FrameLayout{d246804 V.E..... ... 0,576-840,1515}
+                            android.view.View{749b1ed V.ED.... ... 0,24-840,27}
+                            android.widget.LinearLayout{8e52822 I.E..... ... 0,0-840,396 #7f0f00c8 app:id/accountList}
+                              android.widget.LinearLayout{818a2b3 VFE...C. ... 0,0-840,198}
+                                odoo.controls.BezelImageView{d820070 V.ED.... ... 48,48-150,150 #7f0f00af app:id/profile_image}
+                                android.widget.LinearLayout{31c7fe9 V.E..... ... 174,70-792,127}
+                                  android.support.v7.widget.AppCompatTextView{951a46e V.ED.... ... 0,0-618,57 #7f0f00c5 app:id/profile_name_text}
+                                  android.support.v7.widget.AppCompatTextView{2f0b70f G.ED.... ... 0,0-0,0 #7f0f00c6 app:id/profile_url_text}
+                              android.widget.LinearLayout{cdeb39c VFE...C. ... 0,198-840,396}
+                                odoo.controls.BezelImageView{c3431a5 V.ED.... ... 48,48-150,150 #7f0f00af app:id/profile_image}
+                                android.widget.LinearLayout{3f7997a V.E..... ... 174,70-792,127}
+                                  android.support.v7.widget.AppCompatTextView{f8bb52b V.ED.... ... 0,0-618,57 #7f0f00c5 app:id/profile_name_text}
+                                  android.support.v7.widget.AppCompatTextView{9f16d88 G.ED.... ... 0,0-0,0 #7f0f00c6 app:id/profile_url_text}
+                            android.widget.LinearLayout{a5b4321 V.E..... ... 0,24-840,915 #7f0f00c9 app:id/drawerItemList}
+                              android.widget.LinearLayout{3d5d346 V.E...C. ... 0,0-840,144}
+                                android.support.v7.widget.AppCompatImageView{68e7907 V.ED.... ... 48,24-144,120 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{5f3da34 V.ED.... ... 216,43-792,100 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{d87f05d V.ED.... ... 792,43-792,100 #7f0f00cb app:id/counter}
+                              android.widget.LinearLayout{30bddd2 V.E...C. ... 0,144-840,288}
+                                android.support.v7.widget.AppCompatImageView{c0f9ea3 V.ED.... ... 48,24-144,120 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{a0e65a0 V.ED.... ... 216,43-792,100 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{4d83559 V.ED.... ... 792,43-792,100 #7f0f00cb app:id/counter}
+                              android.widget.LinearLayout{c26051e V.E...C. ... 0,288-840,432}
+                                android.support.v7.widget.AppCompatImageView{4f381ff V.ED.... ... 48,24-144,120 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{7843bcc V.ED.... ... 216,43-792,100 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{94dce15 V.ED.... ... 792,43-792,100 #7f0f00cb app:id/counter}
+                              android.widget.LinearLayout{429552a V.E..... ... 0,432-840,603}
+                                android.view.View{6083f1b V.ED.... ... 0,24-840,27}
+                                android.support.v7.widget.AppCompatTextView{e9f48b8 V.ED.... ... 0,27-840,171 #7f0f00ca app:id/group_title}
+                              android.widget.LinearLayout{84a3691 V.E...C. ... 0,603-840,747}
+                                android.support.v7.widget.AppCompatImageView{95f99f6 V.ED.... ... 48,24-144,120 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{8e1b1f7 V.ED.... ... 216,43-792,100 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{85c3864 V.ED.... ... 792,43-792,100 #7f0f00cb app:id/counter}
+                              android.widget.LinearLayout{9caaacd V.E...C. ... 0,747-840,891}
+                                android.support.v7.widget.AppCompatImageView{2e35f82 V.ED.... ... 48,24-144,120 #7f0f007a app:id/icon}
+                                android.support.v7.widget.AppCompatTextView{2757693 V.ED.... ... 216,43-792,100 #7f0f007b app:id/title}
+                                android.support.v7.widget.AppCompatTextView{ed676d0 V.ED.... ... 792,43-792,100 #7f0f00cb app:id/counter}
+        android.view.View{e6426c9 V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
